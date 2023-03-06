@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Administrateur IAM</title>
+</head>
+<body>
+    <ul class="dropdown-menu">
+    <li>
+        <a class="dropdown-item" href="afficherAdministrateur.php">Administrateurs</a>
+        <ul class="dropdown-menu">
+            <li><button class="btn btn-primary"><a class="dropdown-item" href="ajouterAdministrateur.php">Ajouter Administrateur</a></button></li>
+            <li><button class="btn btn-primary"><a class="dropdown-item" href="afficherAdministrateur.php">Lister Administrateur</a></button></li>
+        </ul>
+
+    </li>
+    <li>
+        <a class="dropdown-item" href="#">Etudiants</a>
+        <ul class="dropdown-menu">
+            <li><button class="btn btn-primary"><a class="dropdown-item" href="ajouterEtudiant.php">Ajouter Etudiant</a></button></li>
+            <li><button class="btn btn-primary"><a class="dropdown-item" href="afficherEtudiant.php">Lister Etudiant</a></button></li>
+           
+        </ul>
+    </li>
+    <li>
+        <a class="dropdown-item" href="#">Chambres</a>
+        <ul class="dropdown-menu">
+            <li><button class="btn btn-primary"><a class="dropdown-item" href="ajouterChambre.php">Ajouter chambre</a></button></li>
+            <li><button class="btn btn-primary"><a class="dropdown-item" href="afficherChambre.php">Lister chambres</a></button></li>
+           
+        </ul>
+
+    </li>
+
+    <li><hr class="dropdown-divider"></li>
+    <li><button class="btn btn-danger"><a class="dropdown-item" href="authentification.php">Se deconnecter</a></button></li>
+    </ul>
+    
+</body>
+</html>

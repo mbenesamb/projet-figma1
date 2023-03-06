@@ -1,0 +1,37 @@
+<?php
+include 'connect.php';
+?>
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Etudiant IAM</title>
+    
+</head>
+<body>
+        
+    <ul class="dropdown-menu">
+    <li>
+        <button class="btn btn-primary"><a href="afficherProfil.php"
+        class = "text-light">Voir mon profil</a></button>
+       
+
+    </li>
+    <li>
+        <button><a class="dropdown-item" href="demandeChambre.php">Faire une demande de chambre</a></button>
+        
+    </li>
+    <li>
+        <button><a class="dropdown-item" href="afficherLocataire.php">Voir mes colocataires</a></button>
+
+    </li>
+
+    <li><hr class="dropdown-divider"></li>
+    <li><button class="btn btn-danger"><a class="dropdown-item" href="authentification.php">Se deconnecter</a></button></li>
+    </ul>
+    
+</body>
+</html>
